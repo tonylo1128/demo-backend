@@ -11,7 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("TS App is Running");
+  res.json({
+      return_value: "TS App is Running"
+    });
 })
 
 

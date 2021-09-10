@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req: Request, res: Response) => {
   res.json({
-      return_value: "TS App is Running"
+      return_value: "TS App is DAMN HARD!"
     });
 })
 
